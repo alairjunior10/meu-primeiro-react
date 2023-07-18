@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import HelloWord from './components/HelloWord';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
+  const nome = "Talitha";
   return (
-    <div className="App">
-      <header className="App-header">
+    /*
+        <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,10 +21,24 @@ function App() {
         >
           Learn React
         </a>
-        <HelloWord/>
+        
       </header>
+    */
+
       
+    <div className="App">  
+      <HelloWord/>
+      <SayMyName nome="Alair Junior"/>
+      <SayMyName nome="Miguel"/>
+      <SayMyName nome= {nome}/>
+      <Pessoa 
+        nome ="Alair"
+        idade = "28"
+        profissao = "Desenvolvedor"
+        foto = "https://via.placeholder.com/150"
+      />
     </div>
+
   );
 }
 
