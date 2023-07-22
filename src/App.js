@@ -3,6 +3,8 @@ import HelloWord from './components/HelloWord';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
   const nome = "Talitha";
@@ -26,7 +28,10 @@ function App() {
     */
 
       
-    <div className="App">  
+    <div className="App"> 
+      <Form/> 
+      <Evento numero={1}/>
+      <Evento numero={2}/>
       <HelloWord/>
       <SayMyName nome="Alair Junior"/>
       <SayMyName nome="Miguel"/>
