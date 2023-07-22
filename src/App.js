@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import HelloWord from './components/HelloWord';
 import SayMyName from './components/SayMyName';
@@ -38,6 +37,7 @@ function App() {
         profissao = "Desenvolvedor"
         foto = "https://via.placeholder.com/150"
       />
+      
       <List/>
     </div>
 
