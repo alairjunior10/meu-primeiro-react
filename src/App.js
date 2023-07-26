@@ -30,8 +30,8 @@ function App() {
       
     <div className="App"> 
       <Form/> 
-      <Evento numero={1}/>
-      <Evento numero={2}/>
+      <Evento />
+      <Evento />
       <HelloWord/>
       <SayMyName nome="Alair Junior"/>
       <SayMyName nome="Miguel"/>
